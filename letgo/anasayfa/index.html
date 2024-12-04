@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anasayafa</title>
+    <!-- LİNKLER  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="index.style.css">
+    <!-- <link rel="stylesheet" href="ilan/ilan_detay.html">
+    <link rel="stylesheet" href="ilan/ilan_ekleme.html">
+    <link rel="stylesheet" href="ilan/ilan_silme.html"> -->
+
+</head>
+<body>
+    <!-- HEADER 1  -->
+    <header class="header1">
+        <img src="https://statics.olx.com.tr/letgo-turkey/web-assets/logo.svg" alt="logo">
+        
+            <!-- SEARCH BUTONU  -->
+            <nav>
+                <!-- Diğer menü öğeleri -->
+              </nav>
+              <form id="searchForm" action="/search" method="get">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" name="query" placeholder="Araba, telefon, bisiklet ve daha fazlası...">
+              </form> 
+              
+
+              <!-- KONUM -->
+             <div class="location-search">
+                <i class="fa-solid fa-location-arrow" style="color: #9b9b9d;"></i>
+                <input type="text" id="location-input" placeholder ="Konum Ara" >
+                <i class="fa-solid fa-chevron-down" style="color: #9b9b9d;"></i>
+                <!-- WRAPPER BAŞLAMA NOKTASI -->
+                 <!-- <div class="options-wrapper">
+                    <ul class="options-list">
+                        <li style="display: block;">İstanbul</li>
+                        <li style="display: block;">Ankara</li>
+                        <li style="display: block;">İzmir</li>
+                        <li style="display: block;">Bursa</li>
+                        <li style="display: block;">Adana</li>
+                    </ul>
+                </div>  -->
+              
+
+        <!-- GİRİŞ BUTONU -->        
+        <div class="giris">
+            <p>Giriş</p>
+        </div>
+ 
+        <!-- SAT BUTONU  -->
+        <div class="sat">
+            <i class="fa-solid fa-camera"></i>
+            <p>Sat</p>
+            <a href="ilan/ilan_ekleme.html"></a>
+        </div>
+        
+         <!-- BUNU YAP -->
+        <!-- <nav>
+            <ul>
+                <li><a href="logo">Logo</a></li>
+            </ul>
+        </nav> -->
+    </header>
+
+
+     
+      <!-- HEADER 2 -->
+    <header class="header2">
+        <h3>Tüm Kategoriler</h3>
+        <i class="fa-solid fa-chevron-down"></i>
+        <nav>
+            <ul>
+                <li><a href="#araba">Araba</a></li>
+                <li><a href="#telefon">Telefon</a></li>
+                <li><a href="#elektronik">Elektronik</a></li>
+                <li><a href="#ev-yaşam">Ev & Yaşam</a></li>
+                <li><a href="#motorsiklet">Motorsiklet</a></li>
+                <li><a href="#giyim-aksesuar">Giyim & Aksesuar</a></li>
+            </ul>
+        </nav>
+    </header> 
+ 
+
+
+    <!-- Yapı şöyle olucak: 
+     - grid (en genel): product-grid
+     - card: card 
+     - image-card: image card 
+     - text-card: text-card 
+     şeklinde olacak. 
+     -->
+<!--  CARD   -->
+
+ <div class="product-grid">
+    <div class="card">
+        <div class="image-card">
+            <div class="highlight"> Öne Çıkan</div>
+            <img src="https://imvm.letgo.com/v1/files/24e80ebb7e8d4-OLXAUTOTR/image;s=505x387" alt="">
+
+             <div class="text-card" >
+                <h3> 1.450 TL</h3>
+                <h1>Kürk detaylı mont</h1>
+                <p class="location"> İstanbul / Beyoğlu</p>
+                <p class="date"> 2 gün önce</p>
+             </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image-card">
+            <div class="highlight"> Öne Çıkan</div>
+            <img src="https://imvm.letgo.com/v1/files/24e80ebb7e8d4-OLXAUTOTR/image;s=505x387" alt="">
+
+             <div class="text-card" >
+                <h3> 1.450 TL</h3>
+                <h1>Kürk detaylı mont</h1>
+                <p class="location"> İstanbul / Beyoğlu</p>
+                <p class="date"> 2 gün önce</p>
+             </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image-card">
+            <div class="highlight"> Öne Çıkan</div>
+            <img src="https://imvm.letgo.com/v1/files/24e80ebb7e8d4-OLXAUTOTR/image;s=505x387" alt="">
+
+             <div class="text-card" >
+                <h3> 1.450 TL</h3>
+                <h1>Kürk detaylı mont</h1>
+                <p class="location"> İstanbul / Beyoğlu</p>
+                <p class="date"> 2 gün önce</p>
+             </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image-card">
+            <div class="highlight"> Öne Çıkan</div>
+            <img src="https://imvm.letgo.com/v1/files/24e80ebb7e8d4-OLXAUTOTR/image;s=505x387" alt="">
+
+             <div class="text-card" >
+                <h3> 1.450 TL</h3>
+                <h1>Kürk detaylı mont</h1>
+                <p class="location"> İstanbul / Beyoğlu</p>
+                <p class="date"> 2 gün önce</p>
+             </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image-card">
+            <div class="highlight"> Öne Çıkan</div>
+            <img src="https://imvm.letgo.com/v1/files/24e80ebb7e8d4-OLXAUTOTR/image;s=505x387" alt="">
+
+             <div class="text-card" >
+                <h3> 1.450 TL</h3>
+                <h1>Kürk detaylı mont</h1>
+                <p class="location"> İstanbul / Beyoğlu</p>
+                <p class="date"> 2 gün önce</p>
+             </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image-card">
+            <div class="highlight"> Öne Çıkan</div>
+            <img src="https://imvm.letgo.com/v1/files/24e80ebb7e8d4-OLXAUTOTR/image;s=505x387" alt="">
+
+             <div class="text-card" >
+                <h3> 1.450 TL</h3>
+                <h1>Kürk detaylı mont</h1>
+                <p class="location"> İstanbul / Beyoğlu</p>
+                <p class="date"> 2 gün önce</p>
+             </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image-card">
+            <div class="highlight"> Öne Çıkan</div>
+            <img src="https://imvm.letgo.com/v1/files/24e80ebb7e8d4-OLXAUTOTR/image;s=505x387" alt="">
+
+             <div class="text-card" >
+                <h3> 1.450 TL</h3>
+                <h1>Kürk detaylı mont</h1>
+                <p class="location"> İstanbul / Beyoğlu</p>
+                <p class="date"> 2 gün önce</p>
+             </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image-card">
+            <div class="highlight"> Öne Çıkan</div>
+            <img src="https://imvm.letgo.com/v1/files/24e80ebb7e8d4-OLXAUTOTR/image;s=505x387" alt="">
+
+             <div class="text-card" >
+                <h3> 1.450 TL</h3>
+                <h1>Kürk detaylı mont</h1>
+                <p class="location"> İstanbul / Beyoğlu</p>
+                <p class="date"> 2 gün önce</p>
+             </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="card">
+        <div class="image-card">
+            <div class="highlight"> Öne Çıkan</div>
+            <img src="https://imvm.letgo.com/v1/files/24e80ebb7e8d4-OLXAUTOTR/image;s=505x387" alt="">
+
+             <div class="text-card" >
+                <h3> 1.450 TL</h3>
+                <h1>Kürk detaylı mont</h1>
+                <p class="location"> İstanbul / Beyoğlu</p>
+                <p class="date"> 2 gün önce</p>
+             </div>
+        </div>
+    </div>
+
+ </div>
+
+ 
+
+<!-- 
+   <div class="product-grid">
+    <div class="card">Kart 1</div>
+    <div class="card">Kart 2</div>
+    <div class="card">Kart 3</div>
+    <div class="card">Kart 4</div>
+    <div class="card">Kart 5</div>
+</div> -->
+
+<!-- cardı baska yapılış şekli. -->
+    <!-- <div class="card-container">
+        <div class="card">
+            <img src="https://imvm.letgo.com/v1/files/de67cd223a914-OLXAUTOTR/image;s=505x387" alt="">
+            <h3>Ürün 1</h3>
+            <p>Açıklama 1</p> <span> ... Gün Önce</span>
+        </div>
+        </div>
+    </div> -->
+
+
+
+
+    <!-- FOOTER
+    <footer> 
+        <div class="footer">
+         <h3> FOOTER!!!!
+         </h3>
+              
+         <div class="konteyner1">
+            <h2> Sosyal medya hesapları </h2>
+            <ul>
+                <li> Instagram</li>
+                <li> WhatsApp</li>
+                <li>Twitter</li>
+            </ul>
+        </div>
+        </div>
+    </footer> -->
+
+</body>
+</html>

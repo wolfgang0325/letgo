@@ -1,0 +1,5 @@
+ Sorun: 
+ 1- diğer sayfayı diğerine bağlama
+ 2- arama motoru ve konum arama
+ 3- kategoriler menüsü
+ 4- functıon olayı

@@ -1,0 +1,21 @@
+body{
+    background-color: #f4f4f4;
+}
+
+  .header{
+    padding: 15px;
+    background-color: #ffff; }
+
+.genel-card{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+   .card{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffff;
+    border-radius: 20px;
+   }
